@@ -24,3 +24,5 @@ Follow these steps to run the project locally:
 4. **Use the command line in cmd of the file in the directory you saved**
     ```bash
     fastapi dev omni.py
+5. **Access the Documentation:**
+Open your browser to http://127.0.0.1:8000/docs to interact with the API.
