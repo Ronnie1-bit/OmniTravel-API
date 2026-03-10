@@ -16,3 +16,11 @@ Follow these steps to run the project locally:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/OmniTravel-API.git](https://github.com/YOUR_USERNAME/OmniTravel-API.git)
    cd OmniTravel-API
+
+2. **Install the Libraries**
+   ```bash
+   pip install fastapi requests uvicorn
+
+4. **Use the command line in cmd of the file in the directory you saved**
+    ```bash
+    fastapi dev omni.py
