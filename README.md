@@ -26,3 +26,12 @@ Follow these steps to run the project locally:
     fastapi dev omni.py
 5. **Access the Documentation:**
 Open your browser to http://127.0.0.1:8000/docs to interact with the API.
+
+⚙️ How it Works
+Request: User enters a city name.
+
+
+Orchestration: The API fetches GPS coordinates, retrieves live weather, and calculates the USD to INR exchange rate simultaneously.
+
+
+Persistence: Data is validated and committed to My_Database1.db with an automatic timestamp.
